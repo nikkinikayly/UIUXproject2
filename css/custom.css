@@ -1,0 +1,161 @@
+.parallax {
+    /* The image used */
+    background-image: url("../img/img_parallax.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-brand > img {
+    display: block;
+    height: 30px;
+}
+.navbar-inverse {
+    background-color: #730302;
+    border-color: #730302;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #730302;
+    background-color: #730302;
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+     margin-bottom: 0px;
+    border: 1px solid transparent;
+}
+.nav > li {
+    position: relative;
+    display: block;
+    color: white;
+    padding: 20px;
+}
+.hero {
+    margin-top: -400px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    min-height: 600px;
+}
+.hero img{
+	width: 80%;
+}
+body {
+	background-color: #fbdfde;
+	font: Helvetica;
+}
+.btn {
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Helvetica;
+  color: #fbdfde;
+  font-size: 40px;
+  background: #d93537;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #730402;
+  text-decoration: none;
+  color: white;
+
+}
+.shopbtn {
+    margin-top: -200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+}
+.subheading h2 {
+    color: white;
+    font-size: 20px;
+    font-family: Helvetica;
+}
+
+.subheading {
+    width: 50%;
+    background-color: #730302;
+    padding: 1px 20px 5px 20px;
+}
+.row.products {
+    padding-top: 20px;
+}
+footer {
+	background-color:#730302;
+	padding-bottom: 100px;
+}
+.nav .navbar-nav {
+	float: none;
+}
+img.thumbnail {
+    width: 80%;
+}
+
+@media (min-width: 768px)
+{
+	.navbar-nav {
+	    float: none;
+	    margin: 0;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+    /* Style adjustments for viewports that meet the condition */
+   .shopbtn {
+   		margin-top: 10px;
+	    text-align: center;
+		 width: 100%;
+
+	}
+	.btn {
+  		font-size: 10px;
+	}
+	.hero {
+		min-height: 400px;
+	}
+	.hero img {
+    	width: 100%;
+	}
+	.subheading h2 {
+    	color: white;
+    	font-size: 10px;
+	}
+	.subheading {
+    	width: 100%;
+    	background-color: #730302;
+    	padding: 1px 20px 5px 20px;
+    	text-align: center;
+	}
+	img.thumbnail {
+    	width: 100%;
+	}
+}
+/*@media only screen and (max-width: 1080px) 
+{
+	.hero {
+	    margin-top: -400px;
+	    margin-right: auto;
+	    margin-left: auto;
+	    text-align: center;
+	    min-height: 500px;
+	}
+}*/
+@media only screen and (min-width: 1200px) {
+
+	.hero {
+	    margin-top: -400px;
+	    margin-right: auto;
+	    margin-left: auto;
+	    text-align: center;
+	    min-height: 700px;
+	}
+}

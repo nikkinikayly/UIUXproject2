@@ -265,7 +265,7 @@ textarea {
     }
 
     img {
-        max-width: 100% !important;
+        height: 50px;
     }
 
     p,
