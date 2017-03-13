@@ -13,48 +13,79 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/custom.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="https://use.fontawesome.com/dbf7507063.js"></script>
     </head>
     <body>
-       <div class="header">
-            <div>
-                <img src="img/logo.png" alt="logo"/>
-                <div class="navigation">
-                    <ul>
-                        <li>occasion</li>
-                        <li>recipient</li>
-                        <li>product</li>
-                        <li>sales</li>
-                    </ul>
+
+       <nav class="navbar navbar-inverse navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar3">
+                        <span class="sr-only">toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <img src="img/logo.png" alt="logo"/>
+                    </a>
                 </div>
+            <div class="navbar-collapse collapse" id="navbar3">
+                <ul class="nav navbar-nav navbar-right">
+                        <li>OCCASION</li>
+                        <li>RECIPIENT</li>
+                        <li>PRODUCT</li>
+                        <li>SALES</li>
+                        <li><i class="fa fa-shopping-cart" aria-hidden="true"></i></li>
+                    </ul>
             </div>
-            <div class="shopping">
-                <a href="/shopping kart" class="cursor btn"><img src="img/shopping-cart.jpg"></a>
             </div>
-        </div>
+        </nav>    
+            
        <div class="parallax"></div>
        
       
-       <div class="hero">
-        <div>
-            <img/>
-            <a href="/products" class="cursor btn">Shop Now</a>
+       <div class="hero"> 
+        <div>       
+            <img src="img/hero.jpg"/>
+        </div>
+        <div class="shopbtn">
+            <a href="/products" class="btn">Shop Now</a>
         </div>
        </div>
-       <div>
+
+       <div class="subheading">
            <h2>Personalized For You</h2>
-           <div>
-            <img src=""/>
-            <img src=""/>
-            <img src=""/>
-            <img src=""/>
+        </div>
+        <div class="container-fluid">
+           <div class="row products">
+                <div class="col-md-3 col-xs-12">
+                    <img class="thumbnail" src="img/easter-1.jpg"/>
+                </div>
+                 <div class="col-md-3 col-xs-12">
+                    <img class="thumbnail" src="img/easter-2.jpg"/>
+                   </div>
+                 <div class="col-md-3 col-xs-12"> 
+                    <img class="thumbnail" src="img/heart.jpg"/>
+                </div>
+                 <div class="col-md-3 col-xs-12">    
+                    <img class="thumbnail" src="img/mugs.jpg"/>
+
+                </div>
            </div>
-       </div>
-       <div class="footer">
-        <ul>
-            <li>Contact Us</li>
-            <li>About Us</li>
-       </div>
+        </div>
+       <footer class="footer">
+        <nav class="navbar">
+            <div class="container">
+                <ul class="nav navbar-nav">
+                    <li>Contact Us</li>
+                    <li>About Us</li>
+                </ul>
+            </div>
+        </nav>
+       </footer>
 
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
@@ -71,5 +102,7 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X','auto');ga('send','pageview');
         </script>
+        <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     </body>
 </html>
