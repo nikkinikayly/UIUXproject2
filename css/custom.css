@@ -25,10 +25,11 @@
     background-color: #730302;
 }
 .navbar {
-    position: relative;
+    position: fixed;
     min-height: 50px;
      margin-bottom: 0px;
     border: 1px solid transparent;
+    width: 100%;
 }
 .nav > li {
     position: relative;
@@ -100,7 +101,7 @@ img.thumbnail {
     width: 80%;
 }
 
-@media (min-width: 768px)
+@media (min-width: 668px)
 {
 	.navbar-nav {
 	    float: none;
@@ -108,7 +109,7 @@ img.thumbnail {
 	}
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 667px) {
     /* Style adjustments for viewports that meet the condition */
    .shopbtn {
    		margin-top: 10px;
